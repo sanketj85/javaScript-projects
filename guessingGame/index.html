@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Number Guessing Game</title>
+</head>
+<body>
+   <div id="container">
+    <h2>Number Guessing Game</h2>
+    <h3>Try and guess a random number between 1 and 100.</h3>
+    <h3>You have 10 attempts to guess the right number.</h3>
+    <h1>Guess a Number</h1>
+    <form class="form">
+        <!-- <label for="guessField" id="guessField"></label>  -->
+        <input type="text" id="guessField">
+        <button id="button">Submit Guess</button>
+    </form>
+    <div class="result">
+        <p>Previous Guesses: <span class="guesses"></span></p>
+        <p>Guesses Remaining: <span class="lastResult">10</span></p>
+    </div>
+    <div id="loworhigh"></div>
+   </div> 
+   <script src="chaiaurcode.js"></script>
+</body>
+</html>
